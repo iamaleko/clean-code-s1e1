@@ -8,14 +8,14 @@ body {
 /* Reset */
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .eisenhower-matrix {
@@ -119,7 +119,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.task-item >    .input {
+.task-item > .input {
   width: 226px
 }
 .delete-button .button-icon {
@@ -139,14 +139,14 @@ input,button{
 
 /* Edit Task */
 .task-item .input {
-  display:none
+  display: none
 }
 
 .task-item.edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-item.edit-mode .label {
-  display:none;
+  display: none;
 }
